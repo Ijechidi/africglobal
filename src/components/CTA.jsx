@@ -3,7 +3,7 @@ import React from 'react';
 const CTA = () => {
   return (
     <div>
-      <h2 className="text-4xl font-bold mb-4">
+      <h2 className="m-2 text-4xl font-bold mb-4">
         Ready to <span className="text-[#22C55E]">Grow Your Future?</span>
       </h2>
       <p className="text-gray-600 mb-8">
