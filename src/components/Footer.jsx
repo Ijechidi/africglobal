@@ -53,27 +53,28 @@ import {
           </div>
   
           {/* Company Links */}
-          <div>
-            <h3 className="text-lg font-semibold mb-4 text-black">Company</h3>
-            <ul className="space-y-2 text-gray-500">
-              <li>Autocapture</li>
-              <li>Data Governance</li>
-              <li>Virtual Events</li>
-              <li>Virtual Users</li>
-              <li>Behavioral Analytics</li>
-              <li>Connect</li>
-            </ul>
-          </div>
-  
-          {/* Explore Links */}
-          <div>
-            <h3 className="text-lg font-semibold mb-4 text-black">Explore</h3>
-            <ul className="space-y-2 text-gray-500">
-              <li>Resources</li>
-              <li>Blog</li>
-              <li>Documents</li>
-            </ul>
-          </div>
+<div>
+  <h3 className="text-lg font-semibold mb-4 text-black">Company</h3>
+  <ul className="space-y-2 text-gray-500">
+    <li><a href="#" className="hover:underline">Autocapture</a></li>
+    <li><a href="#" className="hover:underline">Data Governance</a></li>
+    <li><a href="#" className="hover:underline">Virtual Events</a></li>
+    <li><a href="#" className="hover:underline">Virtual Users</a></li>
+    <li><a href="#" className="hover:underline">Behavioral Analytics</a></li>
+    <li><a href="#" className="hover:underline">Connect</a></li>
+  </ul>
+</div>
+
+{/* Explore Links */}
+<div>
+  <h3 className="text-lg font-semibold mb-4 text-black">Explore</h3>
+  <ul className="space-y-2 text-gray-500">
+    <li><a href="#" className="hover:underline">Resources</a></li>
+    <li><a href="#" className="hover:underline">Blog</a></li>
+    <li><a href="#" className="hover:underline">Documents</a></li>
+  </ul>
+</div>
+
         </div>
       </footer>
     );
