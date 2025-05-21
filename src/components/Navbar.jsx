@@ -18,7 +18,7 @@ const Navbar = () => {
                 alt="AfricGlobal" 
                 width={70} 
                 height={32}
-                className="h-8"
+                className="h-8 w-10"
               />
               <span className="text-[#22C55E] font-semibold text-xl ml-2">AfricGlobal</span>
             </div>
