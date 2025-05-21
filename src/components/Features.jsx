@@ -12,11 +12,11 @@ const Features = () => {
         <div className="grid md:grid-cols-2 gap-8">
           <div className="rounded-lg overflow-hidden shadow-lg">
             <Image 
-              src="/tractor.jpg" 
+              src="/tractor.png" 
               alt="For Exporters" 
               width={600}
-              height={300}
-              className="w-full h-48 object-cover"
+              height={400}
+              className="w-full h-70 object-cover" // increased height from h-48 to h-56
             />
             <div className="p-6">
               <h3 className="text-xl font-semibold mb-2">For Exporters</h3>
@@ -29,11 +29,11 @@ const Features = () => {
 
           <div className="rounded-lg overflow-hidden shadow-lg">
             <Image 
-              src="/investor.jpg" 
+              src="/investor.png" 
               alt="For Investors" 
               width={600}
               height={300}
-              className="w-full h-48 object-cover"
+              className="w-full h-70 object-cover"
             />
             <div className="p-6">
               <h3 className="text-xl font-semibold mb-2">For Investors</h3>

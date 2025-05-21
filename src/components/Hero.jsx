@@ -7,9 +7,11 @@ const Hero = () => {
       <div className="container mx-auto px-6">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 text-[#1A202C]">
-            Grow Wealth Sustainably: Connect{' '}
-            <span className="text-[#22C55E]">Exporters and Investors</span>{' '}
-            in Agriculture
+            <div className="whitespace-nowrap">Grow Wealth Sustainably: Connect</div>
+            <div className="mt-2">
+              <span className="text-[#22C55E]">Exporters and Investors</span>{' '}
+              in Agriculture
+            </div>
           </h1>
           <p className="text-[#4A5568] text-lg mb-8">
             Join a global network of exporters and investors in agriculture to expand your
