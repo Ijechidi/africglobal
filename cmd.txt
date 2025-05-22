@@ -1,0 +1,10 @@
+
+
+pnpm add tailwindcss-animate
+
+##shadcn
+pnpm dlx shadcn@latest init
+
+#add
+pnpm dlx shadcn@latest add button input checkbox
+ 

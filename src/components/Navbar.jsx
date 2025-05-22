@@ -51,9 +51,11 @@ const Navbar = () => {
             </button>
             
             <div className="hidden md:block">
+              <Link href="/sign-up">
               <button className="bg-[#22C55E] text-white px-6 py-2 rounded-md text-sm font-medium hover:bg-green-600 transition-colors">
                 Sign Up
               </button>
+              </Link>
             </div>
           </div>
 

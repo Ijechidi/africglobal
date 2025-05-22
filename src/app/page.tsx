@@ -8,16 +8,14 @@ import Footer from '../components/Footer';
 
 export default function Home() {
   return (
-    <>
-      <Navbar />
-      <main className="pt-20">
+
+      <main className="pt-5">
         <Hero />
         <Features />
         <Steps />
         <FAQ />
         <Campaign />
       </main>
-      <Footer />
-    </>
+
   );
 }
