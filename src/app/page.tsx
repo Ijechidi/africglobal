@@ -9,7 +9,7 @@ import Campaign from '../components/Campaign'
 export default function Home() {
   return (
     <>
-      <Navbar />
+   
       <main className="pt-20">
         <Hero />
         <Features />
@@ -17,7 +17,7 @@ export default function Home() {
         <FAQ />
         <Campaign />
       </main>
-      <Footer />
+  
     </>
   );
 }

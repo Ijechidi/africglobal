@@ -8,3 +8,8 @@ pnpm dlx shadcn@latest init
 #add
 pnpm dlx shadcn@latest add button input checkbox
  
+
+##supabase
+
+    pnpm i @supabase/ssr
+    pnpm i @supabase/supabase-js
