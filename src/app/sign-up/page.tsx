@@ -59,27 +59,20 @@ export default function SignupPage() {
   };
 
   return (
-    <div className="flex flex-col md:flex-row min-h-screen">
+    <div className="h-screen flex">
       {/* Left side - Form */}
-      <div className="flex-1 flex flex-col items-center justify-center p-6 md:p-10 lg:p-16">
+      <div className="flex-1 flex items-center justify-center p-4 sm:p-6 md:p-8 overflow-y-auto">
         <div className="w-full max-w-md">
           {/* Logo */}
-          <div className="mb-8 text-center">
-            <h1 className="text-2xl font-bold text-green-500">AfriGlobal</h1>
+          <div className="mb-4 sm:mb-6 text-center">
+            <h1 className="text-xl sm:text-2xl font-bold text-green-500">AfriGlobal</h1>
           </div>
 
           {/* Form Title */}
-          <h2 className="text-3xl font-bold text-gray-800 mb-8">Create Account</h2>
-
-          {/* Error Message */}
-          {error && (
-            <div className="mb-4 p-3 bg-red-100 text-red-700 rounded-lg">
-              {error}
-            </div>
-          )}
+          <h2 className="text-xl sm:text-2xl font-bold text-gray-800 mb-4 sm:mb-6">Create Account</h2>
 
           {/* Form */}
-          <form onSubmit={handleSubmit} className="space-y-6">
+          <form onSubmit={handleSubmit} className="space-y-3 sm:space-y-4">
             <div className="space-y-2">
               <label htmlFor="fullName" className="text-gray-700">
                 Full name
@@ -183,7 +176,7 @@ export default function SignupPage() {
             </Button>
           </form>
 
-          <div className="mt-6 text-center text-sm">
+          <div className="mt-3 sm:mt-4 text-center text-sm">
             Already have an account?{" "}
             <Link href="/login" className="text-green-500 hover:underline">
               Login
@@ -202,8 +195,8 @@ export default function SignupPage() {
           priority
         />
         <div className="absolute inset-0 bg-black/30 flex flex-col justify-end p-10 text-white">
-          <h2 className="text-4xl lg:text-5xl font-bold mb-4">Reach Global Buyers with Ease</h2>
-          <p className="text-lg mb-8">Exporters, list your products and connect with buyers worldwide</p>
+          <h2 className="text-3xl lg:text-4xl font-bold mb-4">Reach Global Buyers with Ease</h2>
+          <p className="text-lg mb-6">Exporters, list your products and connect with buyers worldwide</p>
           <div className="flex justify-end">
             <Button
               variant="outline"
