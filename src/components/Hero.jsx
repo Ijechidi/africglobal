@@ -1,5 +1,6 @@
 import React from 'react';
 import DashboardPreview from './DashboardPreview';
+import Link from 'next/link';
 
 const Hero = () => {
   return (
@@ -21,9 +22,9 @@ const Hero = () => {
             <button className="bg-[#22C55E] text-white px-8 py-3 rounded-md font-medium hover:bg-green-600 transition-colors">
               Get Started
             </button>
-            <button className="border-2 border-[#22C55E] text-[#22C55E] px-8 py-3 rounded-md font-medium hover:bg-green-50 transition-colors">
+            <Link href={"/login"} className="border-2 border-[#22C55E] text-[#22C55E] px-8 py-3 rounded-md font-medium hover:bg-green-50 transition-colors">
               Log In
-            </button>
+            </Link>
           </div>
         </div>
         <div className="relative w-full max-w-5xl mx-auto">
