@@ -1,5 +1,4 @@
 import React from 'react';
-import DashboardPreview from './DashboardPreview';
 import Link from 'next/link';
 
 const Hero = () => {
@@ -28,7 +27,6 @@ const Hero = () => {
           </div>
         </div>
         <div className="relative w-full max-w-5xl mx-auto">
-          <DashboardPreview />
         </div>
       </div>
     </div>

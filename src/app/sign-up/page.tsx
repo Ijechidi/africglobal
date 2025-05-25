@@ -50,6 +50,8 @@ export default function SignupPage() {
 
     try {
       await signUp(formData.email, formData.password, formData.fullName);
+      // In your sign-up submit handler
+      router.push(`/verify-otp?email=${encodeURIComponent(formData.email)}`);
       router.push("/login"); // Redirect to login page after successful registration
     } catch (err: any) {
       setError(err.message || "An error occurred during registration");
